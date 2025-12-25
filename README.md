@@ -27,10 +27,10 @@ chmod +x ~/.local/bin/usbmount
 usbmount
 ```
 
-Option B: download from a URL:
+Option B: download from GitHub:
 
 ```bash
-curl -fsSL https://example.com/usbmount.py -o ~/usbmount.py
+curl -fsSL https://raw.githubusercontent.com/josephma93/usbmount/refs/heads/main/usbmount.py -o ~/usbmount.py
 mkdir -p ~/.local/bin
 cp ~/usbmount.py ~/.local/bin/usbmount
 chmod +x ~/.local/bin/usbmount
